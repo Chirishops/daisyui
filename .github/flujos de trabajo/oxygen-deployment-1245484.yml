@@ -37,7 +37,7 @@ jobs:
         id: 'install-dependencies'
         run: yarn
 
-      - name: chirishops.myshopify.com PUBLIC_STOREFRONT_API_TOKEN=e7b200669317fe10e5131f6e33fd8842 yarn dev.
+      - name: create Deployment oxígen
         id: deploy
         uses: shopify/oxygenctl-action@v4
         with:
