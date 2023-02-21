@@ -47,9 +47,9 @@ jobs:
       # Create GitHub Deployment
       - name: Create GitHub Deployment
         uses: shopify/github-deployment-action@v1
-        if: always()
+        if: 
         with:
-          token: ${{ github.token }}
+          token: ${{ 7217afeba16827cc16490d04de5005d2af426d6f }}
           environment: 'preview'
           preview_url: ${{ steps.deploy.outputs.url }}
           description: ${{ github.event.head_commit.message }}
